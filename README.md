@@ -18,24 +18,9 @@ This project was created to practice **modern frontend development**, **componen
 - **Tailwind CSS** – Utility-first styling
 - **React Router DOM** – Client-side routing
 
-## 📂 Project Structure
-PrimeStay
-│
-├── public
-├── src
-│ ├── assets
-│ ├── components
-│ ├── pages
-│ ├── App.jsx
-│ └── main.jsx
-│
-├── package.json
-└── README.md
-
 ## ⚙️ Installation & Setup
 1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/primestay.git
+git clone: [https://github.com/ming-lamasherpa/PrimeStay---Hotel-BookingSystem.git]
 
 Navigate to the project folder
 - cd primestay
