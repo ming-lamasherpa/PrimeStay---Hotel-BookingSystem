@@ -22,11 +22,3 @@ This project was created to practice **modern frontend development**, **componen
 1. **Clone the repository**
 git clone: [https://github.com/ming-lamasherpa/PrimeStay---Hotel-BookingSystem.git]
 
-Navigate to the project folder
-- cd primestay
-Install dependencies
-- npm install
-Run the development server
-- npm run dev
-The project will run on:
-- http://localhost:5173
