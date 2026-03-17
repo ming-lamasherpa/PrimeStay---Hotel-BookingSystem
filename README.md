@@ -3,22 +3,23 @@
 PrimeStay is a modern **Hotel Booking System frontend** built using **React.js** and **Tailwind CSS**.  
 The project provides a clean and responsive user interface for browsing hotels, searching destinations, and exploring featured rooms.
 
-This project was created to practice **modern frontend development**, **component-based architecture**, and **responsive UI design**.
+## Frontend:
+Install Client side package:
+- **React.js** > npm install/vite
+- **Tailwind CSS** > npm install tailwindcss @tailwindcss/vite
+  - First Step : vite.config.ts > import tailwindcss from '@tailwindcss/vite'
+  - Second Step: vite.config.ts > plugins: [tailwindcss(),],
+  - Third Step: index.css > @import "tailwindcss";
+- **React Router DOM** > npm install react-router-dom
+- **Lucide react** > npm install lucide-react
 
-## 🚀 Features
-- Modern and responsive UI
-- Hotel listing and featured destinations
-- Search functionality (destination, check-in, check-out, guests)
-- Clean hotel cards with ratings and pricing
-- Smooth navigation using client-side routing
-- Mobile-friendly layout
+## Backend:
+Install server package:
+- server > npm init -y
+- server > npm i express dotenv cors mongoose cloudinary multer svix
+- Add: "type":"module", in package JSON.
 
-## 🛠️ Technologies Used
-- **React.js** – Frontend framework
-- **Tailwind CSS** – Utility-first styling
-- **React Router DOM** – Client-side routing
-
-## ⚙️ Installation & Setup
+##  Setup for clone:
 1. **Clone the repository**
 git clone: [https://github.com/ming-lamasherpa/PrimeStay---Hotel-BookingSystem.git]
 
