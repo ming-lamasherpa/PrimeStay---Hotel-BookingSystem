@@ -21,6 +21,13 @@ Install server package:
 - server > npm install --save-dev nodemon "server": "nodemon server.js",
 - server > npm run server
 
+## Express install:
+Install Express package:
+- server>npm install @clerk/express
+- Add clerkMiddleware():
+   - import { clerkMiddleware } from '@clerk/express'
+   - app.use(clerkMiddleware())
+
 ##  Setup for clone:
 1. **Clone the repository**
 git clone: [https://github.com/ming-lamasherpa/PrimeStay---Hotel-BookingSystem.git]
