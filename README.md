@@ -18,6 +18,8 @@ Install server package:
 - server > npm init -y
 - server > npm i express dotenv cors mongoose cloudinary multer svix
 - Add: "type":"module", in package JSON.
+- server > npm install --save-dev nodemon "server": "nodemon server.js",
+- server > npm run server
 
 ##  Setup for clone:
 1. **Clone the repository**
