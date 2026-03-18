@@ -1,16 +1,34 @@
-# React + Vite
+# PrimeStay – Hotel Booking System 🏨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PrimeStay is a modern **Hotel Booking System frontend** built using **React.js** and **Tailwind CSS**.  
+The project provides a clean and responsive user interface for browsing hotels, searching destinations, and exploring featured rooms.
 
-Currently, two official plugins are available:
+## Frontend:
+Install Client side package:
+- **React.js** > npm install/vite
+- **Tailwind CSS** > npm install tailwindcss @tailwindcss/vite
+  - First Step : vite.config.ts > import tailwindcss from '@tailwindcss/vite'
+  - Second Step: vite.config.ts > plugins: [tailwindcss(),],
+  - Third Step: index.css > @import "tailwindcss";
+- **React Router DOM** > npm install react-router-dom
+- **Lucide react** > npm install lucide-react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend:
+Install server package:
+- server > npm init -y
+- server > npm i express dotenv cors mongoose cloudinary multer svix
+- Add: "type":"module", in package JSON.
+- server > npm install --save-dev nodemon "server": "nodemon server.js",
+- server > npm run server
 
-## React Compiler
+## Express install:
+Install Express package:
+- server>npm install @clerk/express
+- Add clerkMiddleware():
+   - import { clerkMiddleware } from '@clerk/express'
+   - app.use(clerkMiddleware())
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Setup for clone:
+1. **Clone the repository**
+git clone: [https://github.com/ming-lamasherpa/PrimeStay---Hotel-BookingSystem.git]
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
