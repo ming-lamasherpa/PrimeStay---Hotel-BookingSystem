@@ -13,20 +13,7 @@ Install Client side package:
 - **React Router DOM** > npm install react-router-dom
 - **Lucide react** > npm install lucide-react
 
-## Backend:
-Install server package:
-- server > npm init -y
-- server > npm i express dotenv cors mongoose cloudinary multer svix
-- Add: "type":"module", in package JSON.
-- server > npm install --save-dev nodemon "server": "nodemon server.js",
-- server > npm run server
 
-## Express install:
-Install Express package:
-- server>npm install @clerk/express
-- Add clerkMiddleware():
-   - import { clerkMiddleware } from '@clerk/express'
-   - app.use(clerkMiddleware())
 
 ##  Setup for clone:
 1. **Clone the repository**
